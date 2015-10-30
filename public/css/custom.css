@@ -1,0 +1,46 @@
+.jumbotron {
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.container-fluid {
+    top: -20px;
+}
+
+.container-fluid .jumbotron {
+    border-radius: 0;
+}
+
+.jumbotron-page1 {
+    background: url(../images/bg.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.titulo-principal {
+    padding-top: 200px;
+    padding-left: 600px;
+}
+
+.titulo-secundario {
+    padding-left: 600px;
+}
+
+.onepage-pagination li a.active:before {
+    display: none;
+}
+
+@media (max-width: 768px) { 
+    .titulo-principal {
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    
+    .titulo-secundario {
+        padding-left: 0px;
+    }
+}
