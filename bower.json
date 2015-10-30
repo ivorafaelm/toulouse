@@ -1,0 +1,21 @@
+{
+  "name": "levaonde",
+  "description": "Aplicacao LevaOnde",
+  "main": "",
+  "authors": [
+    "Ivo Rafael Santos Menezes <ivorafaelm@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.5"
+  }
+}
